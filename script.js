@@ -30,7 +30,7 @@ const projectCards = personalProjects.map(p => `<a class="project-card ${p.class
 const personalPage = () => `<main id="home">
 <section class="personal-hero"><div class="hero-kicker"><span></span> Available for opportunities</div>
 <h1>Building systems that <em>scale.</em></h1>
-<div class="personal-hero-bottom"><p>Xin chào, tôi là <strong>Anwar</strong> — Full-Stack Developer tập trung vào Backend, System Design và những sản phẩm AI hữu ích.</p><div class="hero-actions"><a class="button primary" href="#projects">Xem dự án ${arrow}</a><a class="button ghost" href=https://github.com/Anwar675/Anwar675" target="_blank" rel="noreferrer">GitHub ${arrow}</a></div></div>
+<div class="personal-hero-bottom"><p>Xin chào, tôi là <strong>Anwar</strong> — Full-Stack Developer tập trung vào Backend, System Design và những sản phẩm AI hữu ích.</p><div class="hero-actions"><a class="button primary" href="#projects">Xem dự án ${arrow}</a><a class="button ghost" href=https://github.com/Anwar675" target="_blank" rel="noreferrer">GitHub ${arrow}</a></div></div>
 <div class="code-window" aria-hidden="true"><div class="window-bar"><i></i><i></i><i></i><span>anwar / philosophy.ts</span></div><pre><code><b>const</b> developer = {
   name: <u>'Anwar'</u>,
   mindset: <u>'build → understand → improve'</u>,
